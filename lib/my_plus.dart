@@ -99,18 +99,7 @@ class _MyPlusState extends State<MyPlus> with SingleTickerProviderStateMixin {
               onPressed: () {
                 Navigator.pushNamed(context, "/newMessage");
 
-                // await dbs.createGroup(
-                //     group: Group(
-                //   type: "basic",
-                //   admin: "${id.uid}_nardos",
-                //   groupName: "New Group",
-                // ));
-
-                // await dbs.createChat(
-                //     chat: Chat(
-                //   senderId: "${id.uid}_nardosnew",
-                //   receiverId: "this is test",
-                // ));
+                
 
                 print("done");
               },
